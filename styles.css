@@ -1,0 +1,131 @@
+body, html{
+    height: 100%;
+  }
+  .title-card2{
+    padding: 10px;
+    background-color: white;
+    font-family: Caveat;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-color: grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .title-card{
+    padding: 10px;
+    background-color: white;
+    font-family: Caveat;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 70%;
+    margin: auto;
+    border-color: grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .card{
+    background-color: white;
+    font-family: Roboto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-color: grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .form{
+    padding: 10px;
+  }
+  
+  .card-title{
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+  
+  #grams{
+    border-width: 1px;
+    font-size: 15px;
+    font-family: Roboto;
+    border-radius: 5px;
+    margin-left: 53px;
+    width: 50px;
+    
+  }
+  #calories{
+    border-width: 1px;
+    font-size: 15px;
+    font-family: Roboto;
+    border-radius: 5px;
+    width: 50px;
+    
+  }
+  
+  .result{
+    text-align: center;
+  }
+  
+  #submit-button{
+    font-family: Roboto;
+    margin-left: 40%;
+    border-width: 1px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .form-cal{
+   margin-left: 50px;
+   padding: 5px;
+  }
+  .form-gram{
+    margin-left: 55px;
+  }
+  
+  .bgimg{
+    background-image: url("https://i.ibb.co/TY4GZ25/Wallpaper-Dog-10704217.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+  }
+
+  @media  only screen and (min-width : 768px) {
+           .card{
+            display: block !important;
+            width: 25rem !important;
+            flex:none !important;
+          }
+      }
